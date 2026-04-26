@@ -2,10 +2,10 @@
 name: fake-ocr-service
 status: backlog
 created: 2026-04-26T12:38:17Z
-updated: 2026-04-26T13:24:35Z
+updated: 2026-04-26T13:44:01Z
 progress: 0%
 prd: .claude/prds/fake-ocr-service.md
-github: (will be set on sync)
+github: https://github.com/alperenecofluxion/cc-vault-test/issues/1
 ---
 
 # Epic: fake-ocr-service
@@ -293,16 +293,16 @@ Mirrors the PRD's Success Criteria with implementation-level specificity. Each i
 
 ## Tasks Created
 
-- [ ] 001.md - Project scaffold (parallel: false)
-- [ ] 002.md - Core constants (parallel: true)
-- [ ] 003.md - Logging and request-ID middleware (parallel: true)
-- [ ] 004.md - Pydantic envelope schemas (parallel: true)
-- [ ] 005.md - OCR service and unit tests (parallel: true)
-- [ ] 006.md - Health router (parallel: true)
-- [ ] 007.md - OCR router (parallel: true)
-- [ ] 008.md - App factory (parallel: false)
-- [ ] 009.md - Integration tests (parallel: false)
-- [ ] 010.md - CI workflow (parallel: false)
+- [ ] #2 - Project scaffold (parallel: false)
+- [ ] #3 - Core constants (parallel: true)
+- [ ] #4 - Logging and request-ID middleware (parallel: true)
+- [ ] #5 - Pydantic envelope schemas (parallel: true)
+- [ ] #6 - OCR service and unit tests (parallel: true)
+- [ ] #7 - Health router (parallel: true)
+- [ ] #8 - OCR router (parallel: true)
+- [ ] #9 - App factory (parallel: false)
+- [ ] #10 - Integration tests (parallel: false)
+- [ ] #11 - CI workflow (parallel: false)
 
 Total tasks: 10
 Parallel tasks: 6
