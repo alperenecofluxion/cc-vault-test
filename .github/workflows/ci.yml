@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install uv (caching enabled)
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+
+      - name: Install Python pinned by .python-version
+        run: uv python install
+
+      - name: Sync deps from frozen lockfile
+        run: uv sync --frozen
+
+      - name: Run make check
+        run: make check
