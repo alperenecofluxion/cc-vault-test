@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__obsidian-vault__read_note",
+      "mcp__obsidian-vault__list_directory",
+      "mcp__obsidian-vault__write_note",
+      "mcp__obsidian-vault__patch_note"
+    ]
+  }
+}

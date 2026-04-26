@@ -104,14 +104,3 @@ The vault is the single source of truth for:
 
 \- Destructive vault operations (delete\_note, cross-folder move\_note) require explicit user confirmation in the same turn.
 
-
-## CCPM activation
-
-**CCPM: enabled** for this project.
-
-This project uses CCPM (spec-driven PM) as its primary workflow. The user-level rule restricting ccpm auto-activation is overridden here. The full PRD → Epic → GitHub Issues → Parallel Agents flow applies.
-
-When the user describes new functionality, work, or features, default to the ccpm workflow:
-1. Suggest starting with a PRD if none exists.
-2. For implementation requests, check for an existing PRD/epic before coding.
-3. Proactively run /context:create-equivalent steps when the project context is stale.
